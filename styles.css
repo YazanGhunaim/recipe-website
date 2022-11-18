@@ -1,0 +1,38 @@
+div #main-title {
+  text-align: center;
+  background-color: gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#subtitle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 8em;
+}
+
+li{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 10em;
+}
+
+ul{
+    margin-top: 4%;
+}
+
+#main-link{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
