@@ -1,3 +1,7 @@
+*{
+  background: tan;
+}
+
 div #main-title {
   text-align: center;
   background-color: gold;
@@ -29,10 +33,23 @@ ul{
     margin-top: 4%;
 }
 
-#main-link{
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
+.main-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-link {
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin-top: 5em;
+  border-radius: 5cm;
+  width: 150px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: larger;
 }
