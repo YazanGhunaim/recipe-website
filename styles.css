@@ -1,11 +1,43 @@
-*{
-  background: tan;
+body{
+  background: thistle;
+}
+.header{
+  background: mistyrose;
+  border: 2px solid rebeccapurple;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.header ul{
+  font-size: 35px;
+  align-items: center;
+  font-family: monospace;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 div #main-title {
+  border-radius: 2em;
+  padding: 8px;
   text-align: center;
-  background-color: gold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: papayawhip;
+  font-family: monospace;
 }
 
 .image {
@@ -23,10 +55,9 @@ div #main-title {
 }
 
 li{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    width: 10em;
+  display: inline-flex;
+   list-style-type: none;
+   padding: 2px;
 }
 
 ul{
@@ -53,3 +84,4 @@ ul{
   color: black;
   font-size: larger;
 }
+
